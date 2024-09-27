@@ -11,8 +11,32 @@
     <title>Document</title>
 </head>
 <body>
-    <nav id="navigation">
-        <ul></ul>
-    </nav>
+    <header id="navigation">
+        <nav id="navigation-menu">
+            <ul>
+                <li><a href="">Aconteceu agora</a></li>
+                <li><a href="">Politica</a></li>
+                <li><a href="">Negocios</a></li>
+                <li><a href="">Esportes</a></li>
+                <li><a href="">Saude</a></li>
+                <li><a href="">Podcasts</a></li>
+            </ul>
+        </nav>
+
+        <div id="navigation-items">
+            <div id="navigation-search">
+                <input>
+                <i class="top-items" data-lucide="search"></i>
+            </div>
+            
+            <i class="top-items" data-lucide="user-round"></i>
+        </div>
+    </header>
+
+    <iframe id="content" src="" frameborder="0"></iframe>
 </body>
+<script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </html>
