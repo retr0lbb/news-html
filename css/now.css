@@ -9,7 +9,6 @@ body{
     justify-content: center;
     padding: 4rem;
     gap: 4rem;
-    background-color: red;
 }
 
 #banner img{
@@ -89,4 +88,89 @@ body{
 }
 #aditional-info p:not(.strong){
     opacity: .7;
+}
+
+#card-news{
+    display: flex;
+    flex-direction: column;
+}
+
+#pannel-icon{
+    rotate: 180deg;
+}
+
+#card-news-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    background-color: #735751D9;
+    color: #E7D7C1;
+    padding: .5rem 1rem;
+}
+
+#card-news-header span{
+    font-size: 1.8rem;
+}
+
+#news-wrapper{
+    display: grid;
+    background-color: red;
+    grid-template-columns: repeat(2, 1fr);
+    flex: 1;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid-item{
+    background-color: #735751;
+    max-width: 45rem;
+    overflow: hidden;
+}
+
+.grid-item img{
+    aspect-ratio: 16/9;
+    max-width: 45rem;
+}
+.grid-item-content{
+    max-width: 40rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item-content h1{
+    font-size: 1.8rem;
+    color: #E7D7C1;
+    font-weight: 600;
+}
+
+.grid-item-content p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #A78A7F;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+
+.grid-item-content #aditional-info{
+    margin-top: 2rem;
+}
+
+.grid-item-footer{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.icon-text, .icon-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #2A2A2A;
 }
