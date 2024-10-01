@@ -182,3 +182,24 @@ body{
     gap: 0.5rem;
     color: #2A2A2A;
 }
+#button-manes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#button-manes button{
+    font-size: 1.6rem;
+    color: #edc2c2;
+    padding: 2rem 5rem;
+    border: none;
+    background: #8C1C13;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+#button-manes button:hover{
+    background: #59110b;
+
+}
