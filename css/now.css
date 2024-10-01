@@ -134,6 +134,7 @@ body{
 
 .grid-item img{
     aspect-ratio: 16/9;
+    object-fit: cover;
     max-width: 45rem;
 }
 .grid-item-content{
@@ -145,10 +146,14 @@ body{
     align-items: center;
 }
 
-.grid-item-content h1{
+.grid-item-content h1, .grid-item-content a{
     font-size: 1.8rem;
     color: #E7D7C1;
     font-weight: 600;
+    text-decoration: none;
+}
+.grid-item-content a:hover{
+    text-decoration: underline;
 }
 
 .grid-item-content p{
