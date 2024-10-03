@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="left">
+        <img id="blob1" src="imgs/blob1.svg" alt="">
+        <img id="blob2" src="imgs/blob2.svg" alt="">
+        <img id="blob3" src="imgs/blob3.svg" alt="">
+    </div>
+    <div id="right">
+        <button id="back-button">
+            <a href="index.html">
+                <i data-lucide="undo-2"></i>
+            </a>
+        </button>
+        <h1>Entrar</h1>
+
+        <form action="">
+            <div class="label-wrapper">
+                <label for="">Email</label>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="label-wrapper">
+                <label for="">Senha</label>
+                <input type="password" placeholder="Senha">
+            </div>
+            
+            <button id="submit-button" type="submit">Entrar</button>
+        </form>
+
+
+        <button id="google">
+            <i class="icon" data-lucide="chrome"></i>
+            <p>Entrar com o Google</p>
+        </button>
+    </div>
+</body>
+<script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</html>
